@@ -1,0 +1,1 @@
+Repo to mess around with rust to see if I like it or not. 

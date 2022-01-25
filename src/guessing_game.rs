@@ -18,6 +18,7 @@ pub fn run() {
             .read_line(&mut guess)
             .expect("Failed to read line");
 
+        // match keyword for enums
         let guess: u8 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => continue,

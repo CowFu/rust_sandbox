@@ -2,8 +2,11 @@ pub fn run() {
     // MUST declare type for each parameter
     // Expressions return a value statements do not
     println!("The value of x is: {}", square_function(3));
-    statement_function(3)
+    statement_function(3);
+
 }
+
+
 
 /// Returns the square of the parameter passed to it
 /// 
